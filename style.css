@@ -1,0 +1,354 @@
+/* Standard Styles */
+body
+{
+    background-color: whitesmoke;
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+/* Custom Styles */
+/* Navbar related */
+
+  /* Video Related */
+    #videonav
+    {
+        position:absolute;
+        /* border:10px solid  pink; */
+        margin-right: 0%;
+        padding-right: 0%;
+        left: auto;
+        top: 0%;
+        bottom: 0%;
+
+    }
+    .video-container 
+    {
+      z-index: -1;
+      object-fit: cover;
+      overflow:hidden;
+      position:absolute;
+      top:0%;
+      bottom: 0%;
+      left:0%;
+      right: 0%;
+      /* display: flex; */
+      /* border:10px solid  blue; */
+      }
+      
+      #video-bg
+      {
+        width:100%;
+        /* height: ; */
+        position: relative;
+        /* border:10px solid  blueviolet; */
+        margin-right: 0%;
+        padding-right: 0%;
+        right: 0%;
+        bottom: 0%;
+      }
+      #left-button
+      {
+        position: relative;
+        top:200px;
+        background-color: transparent;
+        color:red;
+        font-size: xx-large;
+      }
+      #right-button
+      {
+        position: relative;
+        top:200px;
+        background-color: transparent;
+        color:red;
+        font-size: xx-large;
+        float: right;
+      }
+      #left-button:hover,#right-button:hover
+      {
+        cursor: pointer;
+        color: aliceblue;
+        background-color: red;
+        
+      }
+
+
+  /* Nav Bar Related */
+
+    #navbar
+      {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      /* border: 10px solid greenyellow; */
+      
+      }
+
+    #navbarElement
+      {
+      display: flex;
+      }
+
+    #navbarElement a
+      {
+        
+          color: white;
+          margin-right: 2em;
+          font-size:x-large;
+
+      }
+
+    #navbarElement a:hover 
+      {
+        background-color: #ddd;
+        color: black;
+      }
+    #navbarElement form 
+      {
+        margin-top: 1.5em;
+        margin-right: 2em;
+        margin-left: 2em;
+        
+      }
+
+    .search-bar
+      {
+      border-radius: 40px;
+      border:3px solid #ddd;
+      text-align: center;
+      }
+
+    #navbarLogo
+      {
+          height: 5em;
+          width: 5em;
+          margin-right: 1em;
+      }
+/* 
+    #navbarParent{
+      border: 2px solid blue;
+    }   */
+
+/* Home div related */
+ 
+  #Home
+  {
+    position:relative;
+    top: 400px;
+    /* border: 10px dashed #0c0c0c; */
+    margin-top: 30px;
+  }
+  /* Para related */
+  #company-introduction 
+  {
+        font-family:cursive;
+        font-style: italic;
+          background-color: whitesmoke;
+          
+  }
+
+  /* Card Related */
+    .card-outer
+      {
+        /* margin: 0% 20%; */
+        position: relative;
+        display: flex;
+        justify-content: center;
+       
+      }
+    
+      .card-parent
+      {
+        margin: 5% 20% 10% 20% ;
+        width: 100%;
+        /* border: 2px solid red; */
+         display: flex;
+        flex-direction: row; 
+        /* box-shadow: -5px -10px 10px 20px silver; */
+        /* box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height: 25em;
+      }
+
+      .card-content h1
+      {
+        /* text-align: end; */
+        font-weight: 500%;
+        font-size:xxx-large;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+
+      .card-content p
+      {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 130%;
+      }
+
+      .card-image
+      {
+        margin-top: 3% ;
+        padding-left: 2%;
+      }
+
+      .card-image img
+      {
+        height: 250px;
+        width: 300px;
+        margin-top: 20%;
+      }
+
+    .left-card-button,.right-card-button
+      {
+        position: relative;
+        top:-2px;
+        background-color: transparent;
+        color:red;
+        font-size: xx-large;
+        float: right;
+        top:80px;
+        height:40px;
+        margin-left: 2%;
+        margin-top: 15%;
+        margin-right: 2%;
+      }
+
+    .left-card-button:hover,.right-card-button:hover
+      {
+        cursor: pointer;
+        color: #0c0c0c;
+        background-color: red;
+       
+      }
+
+/* Grid Image Cards */
+  .grid-container 
+  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    position: relative;
+    top: 70%;
+  }
+  .grid-ele-1 
+  { position: relative;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    /* border: 10px solid blue; */
+    right: 0%;
+  }
+
+  .grid-ele-1 video
+  {
+    
+    height: 100%;
+    width: 100%;
+    /* border: 10px pink solid; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    position: relative;
+    right: 0%;
+  
+  }
+  .grid-ele-2 
+  { 
+    /* position: relative; */
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    /* border: 0px solid gray; */
+  }
+  
+  .grid-ele-2 video
+  {
+    /* height: 50em;
+    width: 30em; */
+    width: 32em;
+    /* max-height:40em; */
+    height: 337px;
+    /* border: 10px pink solid; */
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    left: 0%;
+    object-fit: cover;
+    overflow:hidden;
+    /* top: -35%; */
+  }
+  .grid-ele-3
+  {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    border: 10px solid blue;
+  }
+  .grid-ele-4
+  {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+    border: 10px solid gray;
+  }
+  .grid-ele-5
+  {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    border: 10px solid blue;
+  }
+  .grid-ele-6
+  {
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    border: 10px solid gray;
+  }
+
+/* Footer Related Stuff */
+  .footerparent
+    {
+      position: relative;
+      top: 400px;
+      bottom: 0%;
+      background-color: hsl(0, 0%, 5%);
+      border:#0c0c0c solid 30px;
+
+      
+    }
+  .footerbar
+    {
+      color: cadetblue;
+      display: flex;
+      
+    }
+  .footerbar a
+    {
+      color: cadetblue;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  .footerbar p
+    {
+      color: cadetblue;
+      margin-top: 0%;
+      margin-right: 20px;
+    
+    }
+  .footerbar button
+    {
+      color: cadetblue;
+      margin-top: -1.5%;
+      margin-right: 20px;
+      /* border-radius: 400%; */
+      background-color: transparent;
+      cursor: pointer;
+      border-color: transparent;
+    }
+  .footerbar a:hover,.footerbar button:hover
+    {
+      color: wheat;
+      background-color: lightslategray;
+      /* border-radius: 300%; */
+      padding: 1%;
+    }
